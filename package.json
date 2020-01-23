@@ -77,7 +77,7 @@
     "sitemap": "^3.2.2",
     "typegoose": "^5.8.1",
     "typeorm": "^0.2.18",
-    "typescript": "^3.5.3",
+    "typescript": "^3.7.4",
     "wonderful-bing-wallpaper": "^0.2.1",
     "yargs": "^13.3.0"
   },
