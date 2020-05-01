@@ -30,7 +30,9 @@
     "test:watch": "NODE_ENV=test jest --watch",
     "test:cov": "NODE_ENV=test jest --coverage",
     "test:e2e": "NODE_ENV=test jest --config ./test/jest-e2e.json",
-    "updategeodb": "node ./node_modules/geoip-lite/scripts/updatedb.js"
+    "updategeodb": "node ./node_modules/geoip-lite/scripts/updatedb.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@nestjs/common": "^6.5.3",
@@ -79,7 +81,8 @@
     "typeorm": "^0.2.18",
     "typescript": "^3.5.3",
     "wonderful-bing-wallpaper": "^0.2.1",
-    "yargs": "^13.3.0"
+    "yargs": "^13.3.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@nestjs/testing": "^6.5.3",
@@ -118,5 +121,6 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "snyk": true
 }
