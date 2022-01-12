@@ -33,7 +33,7 @@
     "updategeodb": "node ./node_modules/geoip-lite/scripts/updatedb.js"
   },
   "dependencies": {
-    "@nestjs/common": "^6.5.3",
+    "@nestjs/common": "^7.4.3",
     "@nestjs/core": "^6.5.3",
     "@nestjs/jwt": "^6.1.1",
     "@nestjs/mongoose": "^6.1.2",
@@ -72,7 +72,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^2.6.3",
     "rxjs": "^6.5.2",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "simple-netease-cloud-music": "^0.4.4",
     "sitemap": "^3.2.2",
     "typegoose": "^5.8.1",
