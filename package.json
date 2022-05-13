@@ -33,7 +33,7 @@
     "updategeodb": "node ./node_modules/geoip-lite/scripts/updatedb.js"
   },
   "dependencies": {
-    "@nestjs/common": "^6.5.3",
+    "@nestjs/common": "^7.5.0",
     "@nestjs/core": "^6.5.3",
     "@nestjs/jwt": "^6.1.1",
     "@nestjs/mongoose": "^6.1.2",
